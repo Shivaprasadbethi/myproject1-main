@@ -1,0 +1,169 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.bootcamp{
+    display: inline;
+    margin: 50%;
+}
+
+#bootcamp_training{
+    position: relative;
+    left: 60%;
+}
+
+#bootcamp_content{
+    width: 600px;
+    font-family: Helvetica;
+    font-weight: 600;
+    font-size: 50px;
+    letter-spacing: -2px;
+}
+
+.bootcamp_buttons{
+    padding: 10px 35px ;
+    font-size: 15px;
+    border-radius: 5px;
+    background-color: gray;
+    border: none;
+    outline: none;
+    margin-right: 1.5%;
+
+}
+.prices{
+    display: inline;
+    margin-top: 10%;
+}
+
+#price{
+    font-size: 45px;
+    margin: 10px;
+}
+
+#rupees{
+    color: #02e797;
+    font-size: 35px;
+}
+
+#bootcamp_video{
+    position: relative;
+    top: -580px;
+    width: 500px;
+    height: 500px;
+    border-radius: 5px;
+}
+
+#seats_button{
+    margin-top: 3%;
+    padding: 20px 30px;
+    font-size: 22px;
+    border: none;
+    outline: none;
+    background-color: #009568a7;
+    border-radius: 10px;
+    filter: opacity(90%);
+    color: rgba(255, 255, 255, 0.605);
+    font-weight: 600;
+}
+
+#believe_quote{
+    width: 100%;
+    font-size: 98px;
+    font-family: Helvetica;
+    font-weight: 600;
+    position: relative;
+    left: 5%;
+    top: -290px;
+    letter-spacing: -4px;
+}
+
+#courses_lists_container{
+    position: relative;
+    top: -220px;
+    left: 4%;
+    width: 100%;
+}
+
+.courses_lists{
+    border-radius: 30px;
+    margin: 8px;
+    padding: 10px 30px;
+    font-size: 40px;
+    background-color: #252525;
+}
+
+#non_stop_container{
+    position: relative;
+    left: 5%;
+
+}
+
+#non_stop_quote{
+    font-family: Helvetica;
+    font-size: 200px;
+    font-weight: 600;
+    letter-spacing: -15px;
+    line-height: 0.900em;
+}
+
+#timing_division{
+    position: relative;
+    left: 1.5%;
+    font-size: 28px;
+    font-family: Helvetica;;
+}
+
+#dominate_quote_contaier{
+    position: relative;
+    left: 5%;
+    top: 250px;
+}
+
+#dominate_word{
+    font-size: 200px;
+    font-weight: 600;
+    font-family: Helvetica;
+    letter-spacing: -8px;
+}
+
+#start_to_victory_word{
+    font-size: 100px;
+    font-weight: 600;
+    font-family: Helvetica;
+    letter-spacing: -5px;
+    color: #4f4f4f;
+}
+
+
+#complete_courses_lists_container{
+    position: relative;
+    top: 380px;
+}
+
+.horizontal_line{
+    width: 87%; 
+    border: 0.5px 
+    solid rgba(255, 255, 255, 0.25); 
+    margin-left: 5%;
+}
+
+.complete_courses_divisions{
+    padding: 40px 60px;
+}
+
+.complete_courses_lists{
+    position: relative;
+    left: 3%;
+    font-size: 36px;
+    font-family: Helvetica;
+    font-weight: 600;
+    
+}
+
+.expand_content{
+    font-size: 15px;
+    font-family: "Helvetica";
+}
+
+

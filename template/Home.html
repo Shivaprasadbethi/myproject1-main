@@ -1,0 +1,72 @@
+{% extends 'Base.html' %}
+
+{% load static %}
+
+{% block title %}
+    Home
+{% endblock title %}
+
+{% block css %}
+<link rel="stylesheet" href="{% static 'css/home.css' %}">
+{% endblock css %}
+
+
+{% block body %}
+    <div id="home_heading"><h1 id="home_heading_content">We only <div id="heading_highlight">teach</div> what we are really really <span style="font-family: juana;">good</span> at.</h1></div>
+    <button id="courses_button">Check Courses-Make an impact</button>
+    <div id="home_paragraph"><p>Get ready to <span style="color: #24cfa6;">accelerate your carrer</span> with customized courses and leave our mark in the tech industry</p></div>
+
+    <div id="user_engagements">
+        <div id="students_taught" class="engagements">
+            <h4 style="font-family: Helvetica; font-size: 30px; filter:opacity(85%);">25k+</h4>
+           <p class="user_engagements_content">Students taught</p>
+        </div>
+        <div id="instructors" class="engagements">
+            <h4 style="font-family: Helvetica; font-size: 30px; filter:opacity(85%);">20+</h4>
+            <p class="user_engagements_content">Instructors</p>
+        </div>
+        <div id="youtube_subs" class="engagements">
+            <h4 style="font-family: Helvetica; font-size: 30px; filter:opacity(85%);">431k+</h4>
+            <p class="user_engagements_content">Youtube Subs</p>
+        </div>
+    </div>
+
+
+    <div id="homebody_content">
+        we do whatever it takes to help you <p id="highlight_body_content"> understand the concepts.</p>
+    </div>
+
+    <iframe id="youtube_content" width="900" height="500" style="border-radius: 30px; border: none; outline: none;" src="https://www.youtube.com/embed/60SRAWmMXyc?si=PhpJUlqklTpbWe69" ></iframe>
+
+    <div id="learning_division">
+        <button id="freelearning_button">Explore Free Learning</button>
+    </div>
+
+    <div id="courses_division">
+        <h1 id="course_heading">Courses Offered</h1>
+        <span id="course_one" class="courses"><button class="viewdetails_buttons">View Details</button></span>
+        <span id="course_two" class="courses"><button class="viewdetails_buttons">View Details</button></span>
+        <span id="course_three" class="courses"><button class="viewdetails_buttons">View Details</button></span>
+        <span id="course_four" class="courses"><button class="viewdetails_buttons">View Details</button></span>
+        <span id="course_five" class="courses"><button class="viewdetails_buttons">View Details</button></span>
+    </div>
+
+
+    <div id="company_division_content">
+        <h1 class="company_d_content">Top <span class="company_d_content" style="color: #24cfa6;">Companies</span> our students working with</h1>
+    </div>
+
+    <div id="companies_division">
+        <img src="{% static 'images/netink.png' %}" alt="" id="netlink" class="companies">
+        <img src="{% static 'images/mindtree.png' %}" alt="" id="mindtree" class="companies">
+        <img src="{% static 'images/Walmart.png' %}" alt="" id="walmart" class="companies"><br>
+        <img src="{% static 'images/rapidops.png' %}" alt="" id="rapidops" class="companies" style="width: 160px;">
+        <img src="{% static 'images/tcs.png' %}" alt="" id="tcs" class="companies">
+        <img src="{% static 'images/amazon.png' %}" alt="" id="amazon" class="companies">
+        <img src="{% static 'images/Wipro.png' %}" alt="" id="wipro" class="companies">
+        <img src="{% static 'images/greeks.png' %}" alt="" id="greeks" class="companies"><br>
+        <button id="explore_courses">Explore Courses</button>
+    </div>
+
+
+{% endblock body %}

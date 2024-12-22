@@ -1,0 +1,176 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    
+}
+
+
+body{
+    background-color: #0c0c0c;
+}
+
+@font-face {
+    font-family:NeueMachina ;
+    src: url(../fonts/NeueMachina-Light.otf);
+}
+
+#container {
+    margin-top: 5px;
+}
+
+
+#container_one{
+    margin-left: 50px;
+    margin-bottom: 10px;
+    font-family:NeueMachina ;
+    color: whitesmoke;
+}
+
+.nav_content{
+    margin: 23px;
+    margin-top: 12px;
+    display: inline;
+    font-size: 14.7px;
+    font-family:NeueMachina ;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    font-family:NeueMachina ;
+    color: whitesmoke;
+}
+
+#conatiner_two{
+    display: inline;
+    margin-left: 22%;
+}
+
+#signup_button{
+    width: 95px;
+    height: 35px;
+    font-size: 15px;
+    color: black;
+    border: none;
+    outline: none;
+    font-family: Helvetica;
+    background-color: #24cfa6;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px black;
+}
+
+
+
+#heading_highlight{
+    color: #24cfa6;
+    display: inline;
+}
+
+#lion_icon{
+    width: 22px;
+    position: relative;
+    top: 8px;
+    left: 23px;
+}
+
+
+#footer_section {
+    position: relative;
+    margin-top: 55%;
+    bottom: 5%;
+
+}
+
+#line{
+    margin: 2%;
+}
+
+#social_media{
+    margin-top: 8%;
+    margin-left: 5%;
+}
+
+
+#social_media_content{
+    position: absolute;
+    font-size: 16px;
+    left: 78px;
+    font-family: NeueMachina;
+}
+
+.social_images{
+    width: 22px;
+    margin-top: 10px;
+    margin-right: 25px;
+    cursor: pointer;
+    color: aliceblue;
+}
+
+
+
+
+#company_container{
+    margin-left: 38%;
+    margin-top: -170px;
+    margin-bottom: 5%;
+
+}
+
+#company{
+    font-size: 17px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
+
+.more_about_company{
+    font-size: 17px;
+    margin: 18px;
+    filter: opacity(80%);
+}
+
+#community_division{
+    position: absolute;
+    left: 65%;
+    top: 120px;
+}
+
+#community, #touch{
+    font-size: 17px;
+    margin-bottom: 10px;
+    margin-left: 12px;
+}
+
+.community_content{
+    font-size: 17px;
+    margin: 18px;
+    filter: opacity(80%);
+}
+
+#get_in_touch{
+    position: absolute;
+    left: 85%;
+    top: 120px;
+    bottom: 2%;
+}
+
+.contact_details{
+    font-size: 17px;
+    margin-top: 10px;
+    filter: opacity(80%);
+}
+
+
+.copyright_content{
+    text-align: center;
+    text-shadow: 1.5px 1.5px 1.5px seashell;
+    margin-top: 10px;
+}
+
+
+#all_rights{
+    padding-bottom: 30px;
+}
+
+

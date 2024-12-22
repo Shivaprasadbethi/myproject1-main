@@ -1,0 +1,77 @@
+{% extends 'Base.html' %}
+
+{% load static %}
+
+{% block title %}
+    Bootcamp
+{% endblock title %}
+
+{% block css %}
+<link rel="stylesheet" href="{% static 'css/bootcamp.css' %}">
+{% endblock css %}
+
+
+{% block body %}
+<div id="bootcamp_heading">
+    <div id="bootcamp_training" class="bootcamp">
+        <div id="bootcamp_content">6 months In-House Bootcamp programme-Kodr</div><br>
+        <button class="bootcamp_buttons">Starts On: 11 Nov 2024</button>
+        <button class="bootcamp_buttons">Placement Assistance</button><br>
+        <div id="price" class="prices">Price</div>
+        <div id="rupees" class="prices">$ 59000</div>
+        <div id="gst" class="prices">[50,000 + 18% Gst]</div><br>
+        <button id="seats_button">Seats Are Full</button>
+    </div>
+    <div id="bootcamp_video" class="bootcamp">
+        <iframe style="border-radius: 10px;" width="700" height="400" src="https://www.youtube.com/embed/pOGLAlGCKFE?si=NRQKALKpduvs5yhb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+</div>
+
+
+<div id="believe_quote">
+    we believe in, <br><h3 style="color: #34A47c; display: inline;">Consistency</h3>. No shortcuts
+</div>
+
+<div id="courses_lists_container">
+    <span class="courses_lists">MERN Stack⚡</span>
+    <span class="courses_lists">Data Structures & Algorithm 🗿</span>
+    <span class="courses_lists">DBMS-SQL 🤟</span><br><br><br>
+    <span class="courses_lists">CORE CS Subjects ⚙️</span>
+    <span class="courses_lists">Placement Assistance 💰</span>
+</div>
+
+
+<div id="non_stop_container">
+    <div id="non_stop_quote">Non-Stop <div style="color: #34A47c;">5 Hours</div><span>Coding</span><span style="font-size: 60px; letter-spacing: 0px; margin-left: 30px;">[ Everday ]</span></div>
+    <div id="timing_division">Monday To Saturday 11:00 AM To 4:00 PM.</div>
+</div>
+
+
+<div id="dominate_quote_contaier">
+    <div id="dominate_word">Dominate.</div>
+    <div id="start_to_victory_word">From Start To Victory.</div>
+</div>
+
+
+<div id="complete_courses_lists_container">
+    <hr class="horizontal_line">
+    <div class="complete_courses_divisions"><span class="complete_courses_lists">HTML/CSS</span><span class="expand_content"  style="position: relative; left: 70%;">Expand v</span></div>
+    <hr class="horizontal_line">
+    <div class="complete_courses_divisions"><span class="complete_courses_lists">JavaScript</span><span class="expand_content" style="position: relative; left: 70%;">Expand v</span></div>
+    <hr class="horizontal_line">
+    <div class="complete_courses_divisions"><span class="complete_courses_lists">React JS</span><span class="expand_content" style="position: relative; left: 72%;">Expand v</span></div>
+    <hr class="horizontal_line">
+    <div class="complete_courses_divisions"><span class="complete_courses_lists">Data Structures and Algorithms(DSA)</span><span class="expand_content" style="position: relative; left: 37%;">Expand v</span></div>
+    <hr class="horizontal_line">
+    <div class="complete_courses_divisions"><span class="complete_courses_lists">Node.js and Express [Backened]</span><span class="expand_content" style="position: relative; left: 43%;">Expand v</span></div>
+    <hr class="horizontal_line">
+    <div class="complete_courses_divisions"><span class="complete_courses_lists">Databases</span><span class="expand_content" style="position: relative; left: 70%;">Expand v</span></div>
+    <hr class="horizontal_line">
+    <div class="complete_courses_divisions"><span class="complete_courses_lists">Git/GitHub</span><span class="expand_content" style="position: relative; left: 70%;">Expand v</span></div>
+    <hr class="horizontal_line">
+    <div class="complete_courses_divisions"><span class="complete_courses_lists">Devops and Deployment</span><span class="expand_content" style="position: relative; left: 53%;">Expand v</span></div>
+    <hr class="horizontal_line">
+    <div class="complete_courses_divisions"><span class="complete_courses_lists">Additional Topics</span><span class="expand_content" style="position: relative; left: 61.5%;">Expand v</span></div>
+    
+</div>
+{% endblock body %}

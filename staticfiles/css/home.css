@@ -1,0 +1,228 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family:NeueMachina ;
+    src: url(../fonts/NeueMachina-Light.otf);
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: #0c0c0c;
+    background-image: radial-gradient(#24cfa6 30px, rgba(0, 0, 0, 0.514) 300px);
+    background-repeat: no-repeat;
+    background-position-y: -420px;
+
+}
+
+#home_heading{
+    width: 700px;
+    position: relative;
+    top: 80px;
+    left: 25%
+}
+
+#home_heading_content{
+    font-weight: 300;
+    font-family:NeueMachina ;
+    text-align: center;
+    line-height: 0.845em;
+    font-size: 4.67em;
+    filter: opacity(85%);
+}
+
+#course_heading{
+    font-family: NeueMachina ;
+}
+
+#home_paragraph{
+    width: 14em;
+    height: 50px;
+    font-family: Helvetica;
+    font-size: 0.82em;
+    font-weight: 300;
+    position: relative;
+    top: 30px;
+    left: 70%;
+    filter: opacity(80%);
+}
+
+#courses_button{
+    width: 350px;
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 12px;
+    color: #000;
+    background-color: #24cfa6;
+    position: relative;
+    font-size: 19px;
+    top: 140px;
+    left: 35%;
+}
+
+
+#user_engagements{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center; 
+    gap: 120px; 
+    padding-left: 28%;
+    margin-top: 2%;
+}
+
+.user_engagements_content{
+    font-family: NeueMachina;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.engagements{
+    display: inline;
+    font-size: 30px;
+    font-family: Helvetica;
+    text-align: center;
+    position: relative;
+    top: 150px;
+}
+
+#homebody_content{
+    position: relative;
+    top: 300px;
+    text-align: center;
+    font-family: NeueMachina;
+    font-weight: 400;
+    font-size: 42px;
+}
+
+
+#highlight_body_content{
+    color: #24cfa6;
+}
+
+#youtube_content{
+    display: block;
+    position: relative;
+    top: 380px;
+    left: 20%;
+    box-shadow: 2px 2px 2px black;
+}
+
+
+#freelearning_button{
+    width: 250px;
+    height: 50px;
+    border: none;
+    outline: none;
+    background-color: #24cfa6; 
+    color: #000; 
+    border-radius: 10px;
+    font-size: 20px;
+    position: relative;
+    top: 420px;
+}
+
+#learning_division{
+    text-align: center;
+}
+
+#courses_division{
+    width: 95%;
+    height: 950px;
+    position: relative;
+    top: 600px;
+    left: 2.5%;
+}
+
+#course_heading{
+    font-size: 40px; 
+    margin-left: 2%;
+    font-family: NeueMachina;
+}
+
+.courses{
+    top: 2%;
+    width: 330px;
+    height: 400px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    box-shadow: 2px -2px 2px black;
+    display: inline-block;
+    position: relative;
+    left: 1%;
+    margin: 10px;
+    margin-bottom: 120px;
+}
+
+
+#company_division_content{
+    position: relative;
+    left: 30%;
+    top: 900px;
+    width: 700px;
+    height: 300px;
+    font-weight: 100;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.company_d_content{
+    font-family: NeueMachina;
+    font-weight: 300;
+}
+
+#companies_division{
+    position: relative;
+    top: 650px;
+    margin-top: 5%;
+
+}
+
+.companies{
+    width: 120px;
+    margin-left: 80px;
+}
+
+#netlink{
+    margin-left: 30%;
+}
+
+#rapidops{
+    margin-left: 20%;
+}
+
+.viewdetails_buttons {
+    background-color: #24cfa6;
+    padding: 10px 91px;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: bold;
+    position: relative;
+    top: 105%;
+    left: 3px;
+    border-radius: 10px;
+}
+
+#explore_courses{
+    position: relative;
+    top: 80px;
+    left: 44%;
+    width: 250px;
+    height: 50px;
+    font-size: 25px;
+    color: #000;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background-color: #24cfa6;
+}
+
+
+

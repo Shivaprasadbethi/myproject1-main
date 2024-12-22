@@ -1,0 +1,84 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        {% block title %}
+        {% endblock title %}
+    </title>
+    {% block css %}
+    {% endblock css %}
+    <link rel="stylesheet" href="{% static 'css/base.css' %}">
+</head>
+<body>
+    <div id="container">
+        <div id="container_one">
+            <img id="lion_icon" src="{% static 'images/lion.webp' %}" alt="image">
+            <span id="nav_content_school" class="nav_content">Sheriyans coding school</span>
+            <div id="conatiner_two">
+                <div id="home" class="nav_content"><a href="{% url 'myapp:home' %}">Home</a></div>
+                <div id="courses" class="nav_content"><a href="{% url 'myapp:courses' %}">Courses</a></div>
+                <div id="bootcamp" class="nav_content"><a href="{% url 'myapp:bootcamp' %}">Bootcamp(Kodr)</a></div>
+                <div id="request_callback" class="nav_content"><a onclick="requestCallback()">Request callback</a></div>
+                <button class="nav_content" id="signup_button">Sign In</button>
+            </div>
+        </div>
+    </div>
+    
+    {% block body %}
+    
+    {% endblock body %}
+
+    <footer id="footer_section">
+        <hr style="width: 95%; border: 0.5px solid rgba(255, 255, 255, 0.25); margin-left: 2.5%;">
+        <div id="social_media">
+            <div id="image_icon"><img src="{% static 'images/lion.webp' %}" style="width: 40px;" alt="" class="socials"></div><br>
+            <div id="social_media_content" class="socials">Let's connect with our socials</div><br>
+            <div id="images_icons">
+                <img src="{% static 'images/insta.png'%}" id="instagram" class="socials social_images">
+                <img src="{% static 'images/linkedin.png'%}" id="linkedin" class="socials social_images">
+                <img src="{% static 'images/discord.png'%}" id="discord" class="socials social_images">
+                <img src="{% static 'images/youtube.png'%}" id="youtube" class="socials social_images">
+                <img src="{% static 'images/twitter.png'%}" id="twitter" class="socials social_images">
+            </div>
+        </div>
+
+        <div id="company_container">
+            <h5 id="company">COMPANY</h5>
+            <div class="more_about_company">About us</div>
+            <div class="more_about_company">Support</div>
+            <div class="more_about_company">Privacy Policy</div>
+            <div class="more_about_company">Terms and Condition</div>
+            <div class="more_about_company">Pricing and Refund</div>
+            <div class="more_about_company">Hire From Us</div>
+            <div class="more_about_company">Bug Bounty</div>
+        </div>
+        
+
+        <div id="community_division">
+            <h5 id="community">COMMUNITY</h5>
+            <div class="community_content">Inertia</div>
+            <div class="community_content">Discord</div>
+        </div>
+
+        <div id="get_in_touch">
+            <h5 id="touch">Get In Touch</h5>
+            <div class="contact_details">+91 8019745671</div>
+            <div class="contact_details">+91 9456783212</div>
+            <div class="contact_details">hello@sheriyans.com</div>
+            <div class="contact_details">23-B, Indrapuri Sector C, Bhopal(MP), 462021</div>
+            <div class="contact_details"></div>
+        </div>
+
+        <hr style="width: 95%; border: 0.5px solid rgba(255, 255, 255, 0.25); margin-left: 2.5%;">
+        <p class="copyright_content">Copyright @ 2024 Shivaprasad</p>
+        <p id="all_rights" class="copyright_content">All Rights Reserved</p>
+    </footer>
+
+    <script src="{% static 'javascript/base.js' %}"></script>
+    
+</body>
+</html>

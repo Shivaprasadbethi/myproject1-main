@@ -1,0 +1,67 @@
+@font-face {
+    font-family:NeueMachina ;
+    src: url(../fonts/NeueMachina-Light.otf);
+}
+
+#courses_content_one{
+    width: 800px;
+    height: 230px;
+    font-size: 70px;
+    margin-left: 5%;
+    margin-top: 5%;
+    font-family: NeueMachina;
+    font-weight: 300;
+}
+
+#courses_content_two{
+    width: 700px;
+    font-size: 32px;
+    margin-left: 5%;
+    font-family: Helvetica;
+    font-weight: 500;
+
+}
+
+
+
+#course_heading{
+    margin-bottom: 2%;
+}
+
+#courses_division{
+    width: 95%;
+    position: relative;
+    top: 90px;
+    left: 2.5%;
+    bottom: -200px;
+}
+
+.courses{
+    width: 450px;
+    height: 400px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    box-shadow: 2px -2px 2px black;
+    display: inline-block;
+    position: relative;
+    left: 1%;
+    margin: 10px;
+    margin-bottom: 120px;
+}
+
+.viewdetails_buttons {
+    background-color: #24cfa6;
+    padding: 8px 150px;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: bold;
+    position: relative;
+    top: 105%;
+    left: 3px;
+    border-radius: 10px;
+}
+
+

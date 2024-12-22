@@ -1,0 +1,29 @@
+{% extends 'Base.html' %}
+
+{% load static %}
+
+{% block title %}
+    Courses
+{% endblock title %}
+
+{% block css %}
+<link rel="stylesheet" href="{% static 'css/courses.css' %}">
+{% endblock css %}
+
+
+{% block body %}
+    <div id="courses_header_content">
+        <div id="courses_content_one" class="courses_content">We're not a <span style="color: #24cfa2;">course factory</span></div>
+        <div id="courses_content_two" class="courses_content">We focus on courses that really help</div>
+    </div>
+
+
+    <div id="courses_division">
+        <h1 id="course_heading" style="font-size: 28px; margin-left: 2%; font-family: Helvetica; font-weight: lighter;">Courses which do work</h1>
+        <span id="course_one" class="courses"><button class="viewdetails_buttons">View Details</button></span>
+        <span id="course_two" class="courses"><button class="viewdetails_buttons">View Details</button></span>
+        <span id="course_three" class="courses"><button class="viewdetails_buttons">View Details</button></span>
+        <span id="course_four" class="courses"><button class="viewdetails_buttons">View Details</button></span>
+
+    </div>
+{% endblock body %}
