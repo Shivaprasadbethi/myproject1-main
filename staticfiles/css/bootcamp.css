@@ -4,13 +4,7 @@
 }
 
 .bootcamp{
-    display: inline;
-    margin: 50%;
-}
-
-#bootcamp_training{
     position: relative;
-    left: 60%;
 }
 
 #bootcamp_content{
@@ -46,14 +40,6 @@
     font-size: 35px;
 }
 
-#bootcamp_video{
-    position: relative;
-    top: -580px;
-    width: 500px;
-    height: 500px;
-    border-radius: 5px;
-}
-
 #seats_button{
     margin-top: 3%;
     padding: 20px 30px;
@@ -74,7 +60,8 @@
     font-weight: 600;
     position: relative;
     left: 5%;
-    top: -290px;
+    top: 290px;
+    margin-top: 20%;
     letter-spacing: -4px;
 }
 
